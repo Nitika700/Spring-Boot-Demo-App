@@ -19,6 +19,7 @@ public class CustomerController {
 	public List<CustomerEntity> getAllLocation()
 	{
 		System.out.println("hi");
+System.out.println("hello");
 		return customerService.getAllCustomer();
 	}
 	
